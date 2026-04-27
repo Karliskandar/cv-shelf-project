@@ -1,11 +1,21 @@
+# Python
 __pycache__/
 *.pyc
+
+# Virtual environments
 .venv/
 venv/
+
+# YOLO runs and outputs
 runs/
 results/
+
+# Dataset and large files
 data/raw/
 data/processed/
 *.pt
 *.pth
+
+# OS/editor
 .DS_Store
+Thumbs.db
