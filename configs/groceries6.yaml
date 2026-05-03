@@ -1,12 +1,13 @@
-path: C:\Users\Admin\OneDrive\Documents\Shit\year2\Semester2\Computer Vision\CV Final
-  Project\cv-shelf-project\data\processed\groceries6
+path: C:\Users\admin\Documents\MI_PROJECTS\CV_shelf\cv-shelf-project\data\processed\groceries6
 train: train/images
 val: valid/images
 test: test/images
+
+nc: 6
 names:
-- water
-- milk
-- juice
-- cereal
-- chips
-- pasta
+  - water
+  - milk
+  - juice
+  - cereal
+  - chips
+  - pasta

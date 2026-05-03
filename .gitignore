@@ -1,21 +1,49 @@
-# Python
-__pycache__/
-*.pyc
+# ============================================================
+# .gitignore for CV Shelf Project
+# ============================================================
 
-# Virtual environments
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
 .venv/
 venv/
+env/
+*.egg-info/
+.ipynb_checkpoints/
 
-# YOLO runs and outputs
-runs/
-results/
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Dataset and large files
-data/raw/
-data/processed/
-*.pt
-*.pth
-
-# OS/editor
+# --- OS ---
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# --- Project-specific ---
+
+# Dataset (too large for git, transfer manually)
+data/processed/
+data/raw/
+
+# Training runs (each run is 20+ MB, kept locally only)
+runs/
+
+# Cache files Ultralytics creates
+*.cache
+
+# Auto-downloaded YOLO weights (re-download as needed)
+yolov8n.pt
+yolov8s.pt
+yolov8m.pt
+yolov8l.pt
+yolov8x.pt
+
+# Local environment files
+.env
+*.local

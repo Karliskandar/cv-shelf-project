@@ -1,0 +1,62 @@
+{
+  "low_stock_threshold_pct": 0.5,
+  "expected_count_method": "p75",
+  "expected_counts": {
+    "water": 3,
+    "milk": 2,
+    "juice": 3,
+    "cereal": 2,
+    "chips": 2,
+    "pasta": 2
+  },
+  "_statistics": {
+    "water": {
+      "n_images": 129,
+      "min": 1,
+      "median": 3,
+      "p75": 3.0,
+      "max": 12,
+      "total_instances": 376
+    },
+    "milk": {
+      "n_images": 87,
+      "min": 1,
+      "median": 2,
+      "p75": 2.0,
+      "max": 7,
+      "total_instances": 170
+    },
+    "juice": {
+      "n_images": 179,
+      "min": 1,
+      "median": 2,
+      "p75": 3.0,
+      "max": 6,
+      "total_instances": 460
+    },
+    "cereal": {
+      "n_images": 189,
+      "min": 1,
+      "median": 1,
+      "p75": 2.0,
+      "max": 4,
+      "total_instances": 264
+    },
+    "chips": {
+      "n_images": 122,
+      "min": 1,
+      "median": 2.0,
+      "p75": 2.0,
+      "max": 10,
+      "total_instances": 227
+    },
+    "pasta": {
+      "n_images": 109,
+      "min": 1,
+      "median": 2,
+      "p75": 2.0,
+      "max": 6,
+      "total_instances": 213
+    }
+  }
+}
